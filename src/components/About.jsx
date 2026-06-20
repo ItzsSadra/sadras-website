@@ -6,7 +6,7 @@ import { FaCode, FaRocket, FaLayerGroup } from "react-icons/fa";
 function StatCard({ value, suffix, label, start, icon }) {
   const count = useCountUp(value, 2000, start);
   return (
-    <div className="glass rounded-2xl p-4 sm:p-5 text-center card-glow group hover:scale-[1.02] transition-transform duration-300">
+    <div className="glass-liquid rounded-2xl p-4 sm:p-5 text-center card-glow group hover:scale-[1.02]">
       <div
         className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center mx-auto mb-3"
         style={{ background: "var(--accent-glow)", color: "var(--accent)" }}
@@ -51,18 +51,15 @@ export default function About() {
         }`}
       >
         <p
-          className="text-xs sm:text-sm tracking-[0.2em] uppercase mb-3 font-mono"
+          className="text-xs sm:text-sm tracking-[0.25em] uppercase mb-3 font-mono"
           style={{ color: "var(--accent)" }}
         >
           {t("about.preTitle")}
         </p>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 tracking-tight text-theme">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight text-theme">
           {t("about.title")}
         </h2>
-        <div
-          className="w-10 sm:w-12 h-1 rounded-full mb-8 sm:mb-10"
-          style={{ background: "var(--accent)" }}
-        />
+        <div className="section-accent mb-10 sm:mb-12" />
       </div>
 
       <div className="grid md:grid-cols-5 gap-6 sm:gap-10">
@@ -109,7 +106,7 @@ export default function About() {
               icon={stat.icon}
             />
           ))}
-          <div className="glass rounded-2xl p-4 sm:p-5 flex items-center justify-center card-glow group hover:scale-[1.02] transition-transform duration-300">
+          <div className="glass-liquid rounded-2xl p-4 sm:p-5 flex items-center justify-center card-glow group hover:scale-[1.02]">
             <span className="text-2xl sm:text-3xl group-hover:scale-110 transition-transform duration-300">
               🚀
             </span>
@@ -117,10 +114,7 @@ export default function About() {
         </div>
       </div>
 
-      <div
-        className="section-divider mt-16 sm:mt-20"
-        style={{ background: "linear-gradient(90deg, transparent 0%, var(--accent-glow) 50%, transparent 100%)" }}
-      />
+      <div className="section-divider mt-16 sm:mt-20" />
     </section>
   );
 }

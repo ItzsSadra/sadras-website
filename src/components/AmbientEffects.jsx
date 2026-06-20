@@ -15,7 +15,7 @@ function Particles() {
   );
 
   return (
-    <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
+    <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden particles-container">
       {particles.map((p) => (
         <span
           key={p.id}

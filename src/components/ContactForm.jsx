@@ -42,6 +42,8 @@ export default function ContactForm() {
     background: "var(--glass-bg)",
     border: "1px solid var(--glass-border)",
     color: "var(--text)",
+    backdropFilter: "blur(8px)",
+    WebkitBackdropFilter: "blur(8px)",
   };
 
   const fieldIcons = {

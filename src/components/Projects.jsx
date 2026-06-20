@@ -85,18 +85,15 @@ export default function Projects() {
         }`}
       >
         <p
-          className="text-xs sm:text-sm tracking-[0.2em] uppercase mb-3 font-mono"
+          className="text-xs sm:text-sm tracking-[0.25em] uppercase mb-3 font-mono"
           style={{ color: "var(--accent)" }}
         >
           {t("projects.preTitle")}
         </p>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 tracking-tight text-theme">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight text-theme">
           {t("projects.title")}
         </h2>
-        <div
-          className="w-10 sm:w-12 h-1 rounded-full mb-8 sm:mb-12"
-          style={{ background: "var(--accent)" }}
-        />
+        <div className="section-accent mb-10 sm:mb-12" />
       </div>
 
       <div className="grid gap-4 sm:gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -108,7 +105,7 @@ export default function Projects() {
             }`}
             style={{ transitionDelay: `${200 + i * 150}ms` }}
           >
-            <div className="group relative glass rounded-2xl overflow-hidden h-full flex flex-col card-glow">
+            <div className="group relative glass-liquid rounded-2xl overflow-hidden h-full flex flex-col card-glow">
               <div
                 className="h-40 sm:h-44 flex items-center justify-center relative overflow-hidden"
                 style={{ background: "linear-gradient(135deg, var(--bg-elevated), transparent)" }}
@@ -188,10 +185,7 @@ export default function Projects() {
         ))}
       </div>
 
-      <div
-        className="section-divider mt-16 sm:mt-20"
-        style={{ background: "linear-gradient(90deg, transparent 0%, var(--accent-glow) 50%, transparent 100%)" }}
-      />
+      <div className="section-divider mt-16 sm:mt-20" />
     </section>
   );
 }

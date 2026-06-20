@@ -42,7 +42,7 @@ function SkillBar({ name, level, index, inView }) {
 function SkillCard({ category, index, inView }) {
   return (
     <div
-      className={`glass rounded-2xl p-5 sm:p-6 card-glow transition-all duration-700 hover:scale-[1.02] ${
+      className={`glass-liquid rounded-2xl p-5 sm:p-6 card-glow transition-all duration-700 hover:scale-[1.02] ${
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       }`}
       style={{ transitionDelay: `${200 + index * 150}ms` }}
@@ -124,18 +124,15 @@ export default function Skills() {
         }`}
       >
         <p
-          className="text-xs sm:text-sm tracking-[0.2em] uppercase mb-3 font-mono"
+          className="text-xs sm:text-sm tracking-[0.25em] uppercase mb-3 font-mono"
           style={{ color: "var(--accent)" }}
         >
           {t("skills.preTitle")}
         </p>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 tracking-tight text-theme">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight text-theme">
           {t("skills.title")}
         </h2>
-        <div
-          className="w-10 sm:w-12 h-1 rounded-full mb-8 sm:mb-12"
-          style={{ background: "var(--accent)" }}
-        />
+        <div className="section-accent mb-10 sm:mb-12" />
       </div>
 
       <div className="grid gap-4 sm:gap-6 md:grid-cols-3">
@@ -149,10 +146,7 @@ export default function Skills() {
         ))}
       </div>
 
-      <div
-        className="section-divider mt-16 sm:mt-20"
-        style={{ background: "linear-gradient(90deg, transparent 0%, var(--accent-glow) 50%, transparent 100%)" }}
-      />
+      <div className="section-divider mt-16 sm:mt-20" />
     </section>
   );
 }
