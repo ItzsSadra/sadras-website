@@ -1,0 +1,72 @@
+{
+  "nav.about": "About",
+  "nav.skills": "Skills",
+  "nav.projects": "Projects",
+  "nav.contact": "Contact",
+  "nav.toggleMenu": "Toggle menu",
+
+  "hero.terminal": "sadra@portfolio:~$",
+  "hero.greeting": "Hello, I'm",
+  "hero.name.first": "Sadra",
+  "hero.name.last": "Hoseinpour",
+  "hero.roles": ["Full-Stack Developer", "UI Enthusiast", "Linux Lover", "Problem Solver"],
+  "hero.subtitle": "A front-end developer who loves clean design, smooth interactions, and building products that make a difference.",
+  "hero.cta.work": "Explore My Work",
+  "hero.cta.contact": "Contact Me",
+
+  "about.preTitle": "Who I am",
+  "about.title": "About Me",
+  "about.bio1": "I'm a full-stack developer who loves building complete digital products — from polished, interactive interfaces to scalable APIs and databases.",
+  "about.bio2": "My stack includes React, Next.js, TypeScript, Node.js, Python, Flask and PostgreSQL. I'm also a big fan of Linux. I'm comfortable working across the entire stack and enjoy turning complex ideas into working, deployed applications.",
+  "about.bio3": "When I'm not coding, you can find me exploring new Linux distros, contributing to open source, or diving into the latest tech trends.",
+  "about.highlights": [
+    "Full-stack development with modern frameworks",
+    "Clean, maintainable code architecture",
+    "Performance-first approach to building UIs",
+    "End-to-end product ownership"
+  ],
+  "about.stats.years": "Years Coding",
+  "about.stats.projects": "Projects",
+  "about.stats.technologies": "Technologies",
+
+  "skills.preTitle": "What I Use",
+  "skills.title": "Skills & Tools",
+  "skills.frontend": "Frontend",
+  "skills.backend": "Backend",
+  "skills.tools": "Tools & Others",
+
+  "projects.preTitle": "My Work",
+  "projects.title": "Featured Projects",
+  "projects.items": [
+    {
+      "title": "E-Commerce Dashboard",
+      "description": "A real-time admin panel with sales charts, dark mode, and role-based access control for managing products and orders."
+    },
+    {
+      "title": "Task Manager API",
+      "description": "A production-grade RESTful API with JWT authentication, task CRUD operations, team collaboration, and real-time updates."
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "This very site! A minimal, responsive portfolio built with modern tools and a focus on clean design and performance."
+    }
+  ],
+  "contact.preTitle": "Get in Touch",
+  "contact.title": "Let's Connect",
+  "contact.description": "I'm always open to new opportunities, collaborations, or just a friendly chat about tech. Feel free to reach out!",
+  "contact.cta": "Say Hello",
+  "contact.form.name": "Name",
+  "contact.form.namePlaceholder": "Your name",
+  "contact.form.email": "Email",
+  "contact.form.emailPlaceholder": "your@email.com",
+  "contact.form.message": "Message",
+  "contact.form.messagePlaceholder": "What's on your mind?",
+  "contact.form.submit": "Send Message",
+  "contact.form.sending": "Sending...",
+  "contact.form.success": "Message sent! I'll get back to you soon.",
+  "contact.form.error": "Something went wrong. Try again later.",
+
+  "footer.copyright": "\u00a9 {year} Sadra Hoseinpour",
+  "footer.builtWith": "Built with React + Tailwind + Vite",
+  "footer.codeWithPassion": "< code with passion />"
+}

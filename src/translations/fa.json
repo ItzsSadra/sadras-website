@@ -1,0 +1,72 @@
+{
+  "nav.about": "درباره",
+  "nav.skills": "مهارت‌ها",
+  "nav.projects": "پروژه‌ها",
+  "nav.contact": "تماس",
+  "nav.toggleMenu": "تغییر منو",
+
+  "hero.terminal": "sadra@portfolio:~$",
+  "hero.greeting": "سلام، من",
+  "hero.name.first": "صدرا",
+  "hero.name.last": "حسین‌پور",
+  "hero.roles": ["توسعه‌دهنده فول‌استک", "علاقه‌مند به UI", "عاشق لینوکس", "حل‌کننده مسئله"],
+  "hero.subtitle": "یک توسعه‌دهنده فرانت‌اند که عاشق طراحی تمیز، تعاملات روان و ساخت محصولاتی است که تأثیرگذارند.",
+  "hero.cta.work": "مشاهده کارهای من",
+  "hero.cta.contact": "تماس با من",
+
+  "about.preTitle": "who I am",
+  "about.title": "درباره من",
+  "about.bio1": "من یک برنامه‌نویس فول‌استک هستم که عاشق ساختن محصولات دیجیتال کامل هستم — از رابط‌های کاربری تعاملی و زیبا گرفته تا APIهای مقیاس‌پذیر و دیتابیس‌ها.",
+  "about.bio2": "تکنولوژی‌هایی که استفاده می‌کنم شامل React، Next.js، TypeScript، Node.js، Python، Flask و PostgreSQL است. همچنین از طرفداران پروپاقرص لینوکس هستم. در تمام لایه‌های توسعه راحت هستم و از تبدیل ایده‌های پیچیده به برنامه‌های کاربردی لذت می‌برم.",
+  "about.bio3": "وقتی کدنویسی نمی‌کنم، می‌توانید من را در حال امتحان توزیع‌های جدید لینوکس، مشارکت در پروژه‌های متن‌باز یا مطالعه آخرین ترندهای تکنولوژی پیدا کنید.",
+  "about.highlights": [
+    "توسعه فول‌استک با فریم‌ورک‌های مدرن",
+    "معماری کد تمیز و قابل نگهداری",
+    "رویکرد عملکردمحور در ساخت رابط‌های کاربری",
+    "مالکیت کامل محصول از ابتدا تا انتها"
+  ],
+  "about.stats.years": "سال کدنویسی",
+  "about.stats.projects": "پروژه",
+  "about.stats.technologies": "تکنولوژی",
+
+  "skills.preTitle": "چیزی که استفاده می‌کنم",
+  "skills.title": "مهارت‌ها و ابزارها",
+  "skills.frontend": "فرانت‌اند",
+  "skills.backend": "بک‌اند",
+  "skills.tools": "ابزارها و سایر",
+
+  "projects.preTitle": "کارهای من",
+  "projects.title": "پروژه‌های شاخص",
+  "projects.items": [
+    {
+      "title": "داشبورد فروشگاهی",
+      "description": "یک پنل مدیریت بلادرنگ با نمودارهای فروش، حالت تاریک و کنترل دسترسی مبتنی بر نقش برای مدیریت محصولات و سفارش‌ها."
+    },
+    {
+      "title": "API مدیریت وظایف",
+      "description": "یک API پیشرفته RESTful با احراز هویت JWT، عملیات CRUD وظایف، همکاری تیمی و به‌روزرسانی بلادرنگ."
+    },
+    {
+      "title": "وبسایت نمونه کار",
+      "description": "همین وبسایت! یک نمونه کار مینیمال و واکنش‌گرا با ابزارهای مدرن با تمرکز بر طراحی تمیز و عملکرد."
+    }
+  ],
+  "contact.preTitle": "ارتباط با من",
+  "contact.title": "بیایید ارتباط داشته باشیم",
+  "contact.description": "من همیشه به فرصت‌های جدید، همکاری‌ها یا حتی یک گفتگوی دوستانه درباره تکنولوژی باز هستم. خوشحال می‌شوم ارتباط برقرار کنیم!",
+  "contact.cta": "ارسال پیام",
+  "contact.form.name": "نام",
+  "contact.form.namePlaceholder": "نام شما",
+  "contact.form.email": "ایمیل",
+  "contact.form.emailPlaceholder": "ایمیل شما",
+  "contact.form.message": "پیام",
+  "contact.form.messagePlaceholder": "چه چیزی مد نظر شماست؟",
+  "contact.form.submit": "ارسال پیام",
+  "contact.form.sending": "در حال ارسال...",
+  "contact.form.success": "پیام ارسال شد! به زودی پاسخ می‌دهم.",
+  "contact.form.error": "مشکلی پیش آمد. بعداً دوباره تلاش کنید.",
+
+  "footer.copyright": "\u00a9 {year} صدرا حسین‌پور",
+  "footer.builtWith": "ساخته شده با React + Tailwind + Vite",
+  "footer.codeWithPassion": "< کدنویسی با عشق />"
+}
