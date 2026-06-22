@@ -1,5 +1,7 @@
 # Sadra Hoseinpour | Portfolio
 
+https://sadra-s-website.vercel.app/
+
 A personal portfolio website built with **React 19**, **Vite 8**, and **Tailwind CSS v4**. Features a glassmorphism design with dark/light mode, bilingual support (English/Persian), and interactive animations.
 
 ## Features
@@ -13,14 +15,14 @@ A personal portfolio website built with **React 19**, **Vite 8**, and **Tailwind
 
 ## Tech Stack
 
-| Tool | Purpose |
-|---|---|
-| [React](https://react.dev) (v19) | UI framework |
-| [Vite](https://vite.dev) (v8) | Build tool & dev server |
-| [Tailwind CSS](https://tailwindcss.com) (v4) | Styling |
-| [Resend](https://resend.com) | Email API (contact form) |
-| [Vercel](https://vercel.com) | Hosting & serverless functions |
-| [pnpm](https://pnpm.io) | Package manager |
+| Tool                                         | Purpose                        |
+| -------------------------------------------- | ------------------------------ |
+| [React](https://react.dev) (v19)             | UI framework                   |
+| [Vite](https://vite.dev) (v8)                | Build tool & dev server        |
+| [Tailwind CSS](https://tailwindcss.com) (v4) | Styling                        |
+| [Resend](https://resend.com)                 | Email API (contact form)       |
+| [Vercel](https://vercel.com)                 | Hosting & serverless functions |
+| [pnpm](https://pnpm.io)                      | Package manager                |
 
 ## Getting Started
 
@@ -59,8 +61,8 @@ api/
 
 ## Environment Variables
 
-| Variable | Description |
-|---|---|
+| Variable         | Description                                    |
+| ---------------- | ---------------------------------------------- |
 | `RESEND_API_KEY` | Resend API key for contact form email delivery |
 
 ## Deployment
