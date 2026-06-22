@@ -11,7 +11,7 @@ A personal portfolio website built with **React 19**, **Vite 8**, and **Tailwind
 - **Interactive UI** — typewriter effect, scroll-triggered animations, 3D tilt cards, count-up stats, cursor glow
 - **Contact form** — sends email via Resend API through a serverless function
 - **Responsive** — mobile drawer nav, touch-device optimizations, safe-area support
-- **Performance** — passive scroll listeners, `will-change` hints, intersection-based animations
+- **Performance** — passive listeners, `will-change` hints, intersection-based animations
 
 ## Tech Stack
 
