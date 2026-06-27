@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sadra-s-website.vercel.app/sitemap.xml

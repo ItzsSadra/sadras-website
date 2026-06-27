@@ -14,6 +14,7 @@ export function LanguageProvider({ children }) {
   useEffect(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === "fa" ? "rtl" : "ltr";
+    document.querySelector('meta[property="og:locale"]')?.setAttribute("content", lang === "fa" ? "fa_IR" : "en_US");
     localStorage.setItem("lang", lang);
   }, [lang]);
 

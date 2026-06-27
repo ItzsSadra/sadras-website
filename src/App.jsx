@@ -30,19 +30,20 @@ function AppContent() {
     pauseTime: 2500,
   });
 
-  return (
-    <>
-      <ScrollProgress />
-      <AmbientEffects />
+    return (
+      <>
+        <ScrollProgress />
+        <AmbientEffects />
 
-      <div className="gradient-bg" />
-      <div className="noise-overlay" />
-      <div className="grid-pattern" />
+        <div className="gradient-bg" />
+        <div className="noise-overlay" />
+        <div className="grid-pattern" />
 
-      <Navbar />
+        <Navbar />
 
-      {/* Hero */}
-      <section className="relative min-h-[100dvh] flex flex-col items-center justify-center gap-6 sm:gap-8 px-4 text-center overflow-x-hidden">
+        <main>
+        {/* Hero */}
+        <section className="relative min-h-[100dvh] flex flex-col items-center justify-center gap-6 sm:gap-8 px-4 text-center overflow-x-hidden">
         {/* Decorative rings */}
         <div className="hero-ring hero-ring-1" />
         <div className="hero-ring hero-ring-2" />
@@ -184,9 +185,9 @@ function AppContent() {
           {/* Social links */}
           <div className="flex items-center justify-center gap-4 sm:gap-5 mt-10 sm:mt-12">
             {[
-              { icon: <FaGithub className="text-lg sm:text-xl" />, href: "https://github.com/yourusername", label: "GitHub" },
-              { icon: <FaLinkedin className="text-lg sm:text-xl" />, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-              { icon: <FaTwitter className="text-lg sm:text-xl" />, href: "https://twitter.com/yourusername", label: "Twitter" },
+              { icon: <FaGithub className="text-lg sm:text-xl" />, href: "https://github.com/sadrahoseinpour", label: "GitHub" },
+              { icon: <FaLinkedin className="text-lg sm:text-xl" />, href: "https://linkedin.com/in/sadrahoseinpour", label: "LinkedIn" },
+              { icon: <FaTwitter className="text-lg sm:text-xl" />, href: "https://twitter.com/sadrahoseinpour", label: "Twitter" },
             ].map((social) => (
               <a
                 key={social.href}
@@ -211,6 +212,8 @@ function AppContent() {
         </div>
       </section>
 
+      </main>
+
       {/* Footer */}
       <footer
         className="px-6 py-10 sm:py-8"
@@ -219,9 +222,9 @@ function AppContent() {
         <div className="max-w-5xl mx-auto flex flex-col items-center gap-6">
           <div className="flex items-center gap-4 sm:gap-5">
             {[
-              { icon: <FaGithub className="text-base" />, href: "https://github.com/yourusername" },
-              { icon: <FaLinkedin className="text-base" />, href: "https://linkedin.com/in/yourusername" },
-              { icon: <FaTwitter className="text-base" />, href: "https://twitter.com/yourusername" },
+              { icon: <FaGithub className="text-base" />, href: "https://github.com/sadrahoseinpour" },
+              { icon: <FaLinkedin className="text-base" />, href: "https://linkedin.com/in/sadrahoseinpour" },
+              { icon: <FaTwitter className="text-base" />, href: "https://twitter.com/sadrahoseinpour" },
             ].map((social) => (
               <a
                 key={social.href}
